@@ -1,31 +1,36 @@
 void sendToEsp(){
-  Serial.print("batteri:");
-  Serial.println(batteryPrecentage);
-  doc["onChargingStation"] = toEsp.pizzaDelivered;
-  doc["batteryPrecentage"] = batteryPrecentage;
-  if (turnState == wait){
-    doc["pizzaDelivered"] = true;
+  if (onChargingStation == true){
+    sendingData[0] = 1;
   }
   else{
-    doc["pizzaDelivered"] = false;
+    sendingData[0] = 0;
   }
- 
-  doc["avarageSpeed"] = toEsp.avarageSpeed;
-  String sendingData;
-  serializeJson(doc, sendingData);
-  Serial1.println(sendingData);
+  Serial.print("onChargingStation: ");
+  Serial.println(sendingData[0]);
+  if (pizzaDelivered == true){
+    sendingData[1] = 1;
+  }
+  else{
+    sendingData[1] = 0;
+  }
+  sendingData[2] = batteryPercentage;
+  sendingData[3] = speedAvg;
+  int sendingArraySize = sizeof(sendingData) / sizeof(float);
+  Serial1.write((uint8_t*)sendingData, sendingArraySize * sizeof(float));
 }
 
 void recieveFromEsp(){
-  if(Serial1.available()){
-    recievedData = Serial1.readStringUntil('\n');    
+  if(Serial1.available() >= 3){
+    int numBytes = Serial1.readBytes((uint8_t*)receivedData, sizeof(receivedData));
+    if (batteryPercentage > batteryMin){
+      destination = receivedData[0];
+    }
+    isFinishedCharging = receivedData[1];
+    Serial.print("isFinishedCharging: ");
+    Serial.println(isFinishedCharging);
+    if (isFinishedCharging == 1){
+      batteryPercentage = receivedData[2];
+    } 
   }
-  deserializeJson(doc, recievedData);
-  if (destination != 6){
-      destination = doc["deliveryHouseNum"];
-  }
-  isFinishedCharging = doc["isFinishedCharging"];
-  if (isFinishedCharging == true){
-    batteryPrecentage = doc["batteryPrecentage"];
-  }
+  return destination;
 }

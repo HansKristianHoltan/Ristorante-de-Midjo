@@ -4,7 +4,7 @@
 const char* ssid = "OnePlus Nord2 5G";
 const char* password = "z93mqy27";
 
-const char* mqtt_server = "192.168.43.128";
+const char* mqtt_server = "192.168.60.95";
 const char* mqttUser = "gruppe10";
 const char* mqttPassword = "gruppe10";
 
@@ -27,7 +27,10 @@ float batteryPrecentage;
 package toZumo;
 package fromZumo;
 
-String recievedData;
+float recievedData[4];
+float sendingData[3];
+
+int byteNum;
 
 int recieveTime = 0;
 int sendTime = 0;

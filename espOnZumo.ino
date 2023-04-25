@@ -14,12 +14,11 @@ void setup() {
 }
 
 void loop() {
-  if (millis() - recieveTime){
+  if (millis() - recieveTime > 1000){
     recieveFromZumo();
     recieveTime = millis();
   }
-
-  if (millis() - rpiTime){
+  if (millis() - rpiTime > 1000){
     sendToRpi();
     rpiTime = millis();
   }
@@ -27,33 +26,18 @@ void loop() {
     reconnect();
   }
   client.loop();
-
-  if (millis() - sendTime){
-    sendToZumo();
-    sendTime = millis();
-  }
 }
 
 void recieveFromZumo(){
-  if(Serial2.available()){
-    recievedData = Serial2.readStringUntil('\n');    
+  if (Serial2.available() >= 4){
+  int numBytes = Serial2.readBytes((uint8_t*)recievedData, sizeof(recievedData));
   }
-  deserializeJson(doc, recievedData);
-  fromZumo.avarageSpeed = doc["avarageSpeed"];
-  fromZumo.isOnChargingStation = doc["onCharginStation"];
-  batteryPrecentage = doc["batteryPrecentage"];
-  fromZumo.pizzaDelivered = doc["pizzaDelivered"];
-  Serial.println(batteryPrecentage);
 }
 
 void sendToZumo(){
-  doc["deliveryHouseNum"] = toZumo.deliveryHouseNum;
-  doc["batteryPrecentage"] = toZumo.batteryPrecentage;
-  doc["isFinishedCharging"] = toZumo.isFinishedCharging;
-  Serial.println(toZumo.deliveryHouseNum);
-  String sendingData;
-  serializeJson(doc, sendingData);
-  Serial2.println(sendingData);
+
+  int sendingArraySize = sizeof(sendingData) / sizeof(float);
+  Serial2.write((uint8_t*)sendingData, sendingArraySize * sizeof(float));
 }
 
 void setup_wifi(){
@@ -71,15 +55,33 @@ void callback(char* topic, byte* message, unsigned int length){
     nodeRedPackage += (char)message[i];
   }
   if (String(topic) == "HouseDelivery"){
-    toZumo.deliveryHouseNum = nodeRedPackage.toInt();
-    Serial.println(nodeRedPackage);
+    sendingData[0] = nodeRedPackage.toFloat();
+    Serial.print("hus: ");
+    Serial.println(sendingData[0]);
   }
+
+  if (String(topic) == "batteryFinishedOut"){
+    sendingData[1] = nodeRedPackage.toFloat();
+    Serial.print("batteryFerdig: ");
+    Serial.println(sendingData[1]);
+
+  }
+
+  if (String(topic) == "batteryNewOut"){
+    sendingData[2] = nodeRedPackage.toFloat();
+    Serial.print("batteriNy: ");
+    Serial.println(sendingData[2]);
+  }
+
+  sendToZumo();
 }
 
 void reconnect(){
   while(!client.connected()){
     if (client.connect("espOnZumo", mqttUser, mqttPassword)){
       client.subscribe("HouseDelivery");
+      client.subscribe("batteryFinishedOut");
+      client.subscribe("batteryNewOut");
     }
   }
 }
@@ -87,17 +89,18 @@ void reconnect(){
 void sendToRpi(){
 
   char avgSpeed[8];
-  itoa(fromZumo.avarageSpeed, avgSpeed, 10);
+  dtostrf(recievedData[3], 3, 5, avgSpeed);
   client.publish("avgSpeed", avgSpeed);
 
-  byte byteCharge = fromZumo.isOnChargingStation ? 1:0;
-  client.publish("charge", &byteCharge, 1);
+  char charge[8];
+  dtostrf(recievedData[0], 3, 5, charge);
+  client.publish("chargeIn", charge);
   
   char batteryPres[8];
-  dtostrf(batteryPrecentage, 3, 4, batteryPres);
-  client.publish("battery", batteryPres);
+  dtostrf(recievedData[2], 3, 4, batteryPres);
+  client.publish("batteryIn", batteryPres);
   
-
-  byte byteDelivery = fromZumo.pizzaDelivered ? 1:0;
-  client.publish("deliveryStatus", &byteDelivery, 1);
+  char delivery[8];
+  dtostrf(recievedData[1], 3, 5, delivery);
+  client.publish("deliveryStatus", delivery);
 }
