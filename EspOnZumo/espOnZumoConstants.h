@@ -1,7 +1,7 @@
 
 // definerer pins for seriellkommunikasjon med Zumo
-const int RXD2 = 16
-const int TXD2 = 17
+const int RXD2 = 16;
+const int TXD2 = 17;
 
 // Wifi navn og passord
 const char* ssid = "OnePlus Nord2 5G";
