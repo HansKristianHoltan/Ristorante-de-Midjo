@@ -1,1 +1,7 @@
-
+Sensornoden måler omgivelses data og sender det til skyserveren.
+samtidig som dette skjer vil en LDR måle lysintensitet å regne ut ladehastighet, og lade opp et internt "batteri". om zumo bilen skal lades, vil en rød lampe lyse, 
+og et LED tårn vil blinke en grønn LED tilsvarende det intervallet som lader.
+Om zumo bilen får en bestilling og har ladet opp til et tillatt nivå, eller er ferdig å lade vil bilen få bekjed om den nye batteri prosenten, og få bekjed om å kjøre vidre.
+Om Zumobilen ikke lader, vil LED tårnet simulere hvor mye batteri som er igjen på Ladestasjonen
+Er nivået under et gitt nivå vil en rød varslingslampe blinke, dette er for å varsle om at ladestasjonen snart er tom for batteri. 
+varslingen vil skje slik at en bil fortsatt kan lade, om varslingen blir skrudd på 
