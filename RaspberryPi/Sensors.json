@@ -1,0 +1,370 @@
+[
+    {
+        "id": "8e4b52badadfe50c",
+        "type": "tab",
+        "label": "Incoming sensor values",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3d2092b8ec9198fb",
+        "type": "group",
+        "z": "8e4b52badadfe50c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c6a2aeba9fa13997",
+            "5045ed1706464213",
+            "c58a5df46c68cb9d",
+            "77bd9998f0205db0",
+            "ed9d9c0efdcc967a",
+            "b7ad9fd23563a849",
+            "fe25cb2bc4ee6c59",
+            "6aad7ee2140dd17b",
+            "44d04220e35beb0c",
+            "66ebe2c859d43146"
+        ],
+        "x": 114,
+        "y": 79,
+        "w": 532,
+        "h": 302
+    },
+    {
+        "id": "c6a2aeba9fa13997",
+        "type": "mqtt in",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "topic": "humSens",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "6aad7ee2140dd17b"
+            ]
+        ]
+    },
+    {
+        "id": "5045ed1706464213",
+        "type": "mqtt in",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "topic": "tempSens",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 180,
+        "wires": [
+            [
+                "b7ad9fd23563a849"
+            ]
+        ]
+    },
+    {
+        "id": "c58a5df46c68cb9d",
+        "type": "mqtt in",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "topic": "presSens",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 240,
+        "wires": [
+            [
+                "fe25cb2bc4ee6c59"
+            ]
+        ]
+    },
+    {
+        "id": "77bd9998f0205db0",
+        "type": "mqtt in",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "topic": "gasSens",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 300,
+        "wires": [
+            [
+                "44d04220e35beb0c"
+            ]
+        ]
+    },
+    {
+        "id": "ed9d9c0efdcc967a",
+        "type": "ui_gauge",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "group": "b05b394625541e3d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "IAQ",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "300",
+        "diff": false,
+        "className": "",
+        "x": 570,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b7ad9fd23563a849",
+        "type": "ui_chart",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "group": "f38697b6ae16fb5e",
+        "order": 1,
+        "width": 7,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 430,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe25cb2bc4ee6c59",
+        "type": "ui_gauge",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "group": "2d751610c891bbec",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "hPa",
+        "format": "{{value}}",
+        "min": "970",
+        "max": "1030",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 410,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "6aad7ee2140dd17b",
+        "type": "ui_gauge",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "group": "34756a54ce886816",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ca3838",
+            "#0fe600",
+            "#3ac1cb"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 470,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "44d04220e35beb0c",
+        "type": "function",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "function 11",
+        "func": "const R0 = 20;\nconst IAQ = 100 * (1 - (R0 / msg.payload));\nmsg.payload = parseFloat(IAQ.toFixed(1));\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 300,
+        "wires": [
+            [
+                "ed9d9c0efdcc967a"
+            ]
+        ]
+    },
+    {
+        "id": "66ebe2c859d43146",
+        "type": "comment",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "info": "Formel som gjør om motstand \ni kOhm til IAQ\n",
+        "x": 380,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "10e78a89.5b4fd5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.0.129",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b05b394625541e3d",
+        "type": "ui_group",
+        "name": "Air-quality",
+        "tab": "e7c46d5e.a1283",
+        "order": 4,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f38697b6ae16fb5e",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "e7c46d5e.a1283",
+        "order": 2,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2d751610c891bbec",
+        "type": "ui_group",
+        "name": "Pressure",
+        "tab": "e7c46d5e.a1283",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "34756a54ce886816",
+        "type": "ui_group",
+        "name": "Humidity",
+        "tab": "e7c46d5e.a1283",
+        "order": 4,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e7c46d5e.a1283",
+        "type": "ui_tab",
+        "name": "Sensor Values",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
