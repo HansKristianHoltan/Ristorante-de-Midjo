@@ -1,5 +1,6 @@
 
 void doneCharging(){
+  
       Serial.print("Charged Battery To: ");
       Serial.print(newBatteryPer);
       Serial.println("%");
