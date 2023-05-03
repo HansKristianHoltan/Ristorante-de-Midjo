@@ -1,0 +1,2207 @@
+[
+    {
+        "id": "e3dd4b0540c9e492",
+        "type": "tab",
+        "label": "Order, delivery and bank",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8e4b52badadfe50c",
+        "type": "tab",
+        "label": "Incoming sensor values",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fd8429217b70c8a4",
+        "type": "tab",
+        "label": "Car and battery communication",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3d2092b8ec9198fb",
+        "type": "group",
+        "z": "8e4b52badadfe50c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c6a2aeba9fa13997",
+            "5045ed1706464213",
+            "c58a5df46c68cb9d",
+            "77bd9998f0205db0",
+            "ed9d9c0efdcc967a",
+            "b7ad9fd23563a849",
+            "fe25cb2bc4ee6c59",
+            "6aad7ee2140dd17b",
+            "44d04220e35beb0c",
+            "66ebe2c859d43146"
+        ],
+        "x": 114,
+        "y": 79,
+        "w": 532,
+        "h": 302
+    },
+    {
+        "id": "bfa4cbec899b3e2a",
+        "type": "group",
+        "z": "e3dd4b0540c9e492",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4f8192c4abded7e4",
+            "74f570ab87aed857",
+            "e01b094ef8f7510a",
+            "aa2b34415a7f03eb",
+            "e906552b12bca2d9",
+            "6d021b6c0e1cbf62",
+            "3048638a621f0b3d"
+        ],
+        "x": 294,
+        "y": 39,
+        "w": 372,
+        "h": 282
+    },
+    {
+        "id": "91aa0da3b533ef89",
+        "type": "group",
+        "z": "fd8429217b70c8a4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1a77dd43b252d304",
+            "95b944d51e647859"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 312,
+        "h": 82
+    },
+    {
+        "id": "6269cc8ede495d79",
+        "type": "group",
+        "z": "fd8429217b70c8a4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5d65ae7e4d716b9e",
+            "0dca8fa66ed3f728",
+            "057909599f03bdc4",
+            "72c35bb422252758",
+            "21bd22cc92b8679b"
+        ],
+        "x": 34,
+        "y": 319,
+        "w": 432,
+        "h": 242
+    },
+    {
+        "id": "626391e90ffc7a4b",
+        "type": "group",
+        "z": "fd8429217b70c8a4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c66491fd9e042dfb",
+            "2e7679989a01b13e",
+            "7e6acb2db9379941",
+            "96194e4155d1c30e"
+        ],
+        "x": 34,
+        "y": 119,
+        "w": 452,
+        "h": 182
+    },
+    {
+        "id": "ce453ab9b7f3c756",
+        "type": "group",
+        "z": "e3dd4b0540c9e492",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bedd02c2e5b8b760",
+            "deba5c50091fb7e4",
+            "68b427feb35b54f0",
+            "4d37d559a779b1b0",
+            "4d591a8bdda3541f"
+        ],
+        "x": 1094,
+        "y": 939,
+        "w": 172,
+        "h": 242
+    },
+    {
+        "id": "59fde9d6be65b870",
+        "type": "group",
+        "z": "e3dd4b0540c9e492",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "fccbbdee1a93b7aa",
+            "4b099d73825a4bc8",
+            "9d6b22e4c0fee55b",
+            "0161f38875137941",
+            "58b5c232d8393f93"
+        ],
+        "x": 674,
+        "y": 59,
+        "w": 472,
+        "h": 202
+    },
+    {
+        "id": "2b273f844c057860",
+        "type": "group",
+        "z": "e3dd4b0540c9e492",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e9d6cb422e47f9db",
+            "b01fb0c905a9c1cd",
+            "1e216d3940728203",
+            "73fbc6ba04bafdb3"
+        ],
+        "x": 1254,
+        "y": 159,
+        "w": 372,
+        "h": 142
+    },
+    {
+        "id": "372795a982966cb9",
+        "type": "group",
+        "z": "e3dd4b0540c9e492",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c8ffbe84929891b1",
+            "70b18085c5acf62c"
+        ],
+        "x": 1374,
+        "y": 359,
+        "w": 192,
+        "h": 122
+    },
+    {
+        "id": "9cef537c68fb3d5d",
+        "type": "group",
+        "z": "e3dd4b0540c9e492",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "eee8bc73bfd8ecb1",
+            "3f9dfa0c2d65df4d",
+            "b96277b8c00d8fa2",
+            "ddb6825e039b2342",
+            "cec0d6a5440589bb",
+            "4e90c062ab69e56b",
+            "8e9d1c372d7f0efb"
+        ],
+        "x": 294,
+        "y": 799,
+        "w": 752,
+        "h": 282
+    },
+    {
+        "id": "4b3e0d8985a69a5e",
+        "type": "group",
+        "z": "e3dd4b0540c9e492",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1998b41e4df8384a",
+            "adaa622f6a3497c9"
+        ],
+        "x": 1274,
+        "y": 779,
+        "w": 172,
+        "h": 122
+    },
+    {
+        "id": "79c11ee659424ab8",
+        "type": "group",
+        "z": "e3dd4b0540c9e492",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bf9f95fc917388a9",
+            "cd4cac89b56f8aa3",
+            "cfd47718aae564e9",
+            "eef499752e57a6c4",
+            "b0709059b866a98d",
+            "7878819815e13ade",
+            "bc11f36fb47bd992",
+            "b2c5726ee59e6a12",
+            "9521cd6d0b9b64f0",
+            "3b7ae38bd1a2d5e9",
+            "ce2c92b0b783f1de",
+            "a5cc0514557e9298",
+            "90f466dbc41665e5",
+            "9b3f7e1dccc4ce6c",
+            "7fd021b0a8f7e783",
+            "b378712d1d3bdc2e",
+            "f56adddbed9d5987",
+            "3b5ac6549f4a16b7",
+            "3e1a9763c4d6fd8b"
+        ],
+        "x": 294,
+        "y": 339,
+        "w": 952,
+        "h": 442
+    },
+    {
+        "id": "10e78a89.5b4fd5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.0.129",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "61285987.c20328",
+        "type": "ui_group",
+        "name": "Income",
+        "tab": "935ae3151b4d83ad",
+        "order": 1,
+        "disp": true,
+        "width": "7",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e7c46d5e.a1283",
+        "type": "ui_tab",
+        "name": "Sensor Values",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "82f2fdb6ec701ff5",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#000000",
+                "baseFont": "Times New Roman,Times,serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "Times New Roman,Times,serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#537c3c",
+                "baseFont": "Times New Roman,Times,serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#537c3c",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#3b484e",
+                    "edited": true
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#aaeeed",
+                    "edited": true
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#706623",
+                    "edited": true
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "Times New Roman,Times,serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "0a1a9e4c53beaa35",
+        "type": "ui_tab",
+        "name": "Ristorante de Midjo",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "af0ab0737b37b306",
+        "type": "ui_group",
+        "name": "Delivery to:",
+        "tab": "0a1a9e4c53beaa35",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f38697b6ae16fb5e",
+        "type": "ui_group",
+        "name": "Temperature",
+        "tab": "e7c46d5e.a1283",
+        "order": 2,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2d751610c891bbec",
+        "type": "ui_group",
+        "name": "Pressure",
+        "tab": "e7c46d5e.a1283",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b05b394625541e3d",
+        "type": "ui_group",
+        "name": "Air-quality",
+        "tab": "e7c46d5e.a1283",
+        "order": 4,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "935ae3151b4d83ad",
+        "type": "ui_tab",
+        "name": "Net Worth",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "34756a54ce886816",
+        "type": "ui_group",
+        "name": "Humidity",
+        "tab": "e7c46d5e.a1283",
+        "order": 4,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "692243409870fe34",
+        "type": "ui_group",
+        "name": "Place your order:",
+        "tab": "0a1a9e4c53beaa35",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fe7c620d395809e9",
+        "type": "ui_tab",
+        "name": "Car Tracking",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "ade7a177e46e99f7",
+        "type": "ui_group",
+        "name": "Speed",
+        "tab": "fe7c620d395809e9",
+        "order": 2,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6268f570b9d0c238",
+        "type": "ui_group",
+        "name": "Battery",
+        "tab": "fe7c620d395809e9",
+        "order": 3,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "baed9618cbdf0a1d",
+        "type": "ui_group",
+        "name": "Delivery status",
+        "tab": "fe7c620d395809e9",
+        "order": 1,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3e1c1d14b40b4fbb",
+        "type": "ui_group",
+        "name": "Expenses",
+        "tab": "935ae3151b4d83ad",
+        "order": 2,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "651b45459da72d7b",
+        "type": "ui_group",
+        "name": "Profit",
+        "tab": "935ae3151b4d83ad",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fccbbdee1a93b7aa",
+        "type": "mqtt in",
+        "z": "e3dd4b0540c9e492",
+        "g": "59fde9d6be65b870",
+        "name": "",
+        "topic": "chargeCost",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 770,
+        "y": 180,
+        "wires": [
+            [
+                "4b099d73825a4bc8",
+                "0161f38875137941",
+                "9d6b22e4c0fee55b"
+            ]
+        ]
+    },
+    {
+        "id": "4b099d73825a4bc8",
+        "type": "ui_text",
+        "z": "e3dd4b0540c9e492",
+        "g": "59fde9d6be65b870",
+        "group": "3e1c1d14b40b4fbb",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Cost of last charge:",
+        "format": "{{msg.payload}}$",
+        "layout": "row-left",
+        "className": "",
+        "x": 950,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9d6b22e4c0fee55b",
+        "type": "ui_chart",
+        "z": "e3dd4b0540c9e492",
+        "g": "59fde9d6be65b870",
+        "name": "",
+        "group": "3e1c1d14b40b4fbb",
+        "order": 1,
+        "width": 7,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4f8192c4abded7e4",
+        "type": "mqtt out",
+        "z": "e3dd4b0540c9e492",
+        "g": "bfa4cbec899b3e2a",
+        "name": "",
+        "topic": "HouseDelivery",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 560,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "74f570ab87aed857",
+        "type": "ui_button",
+        "z": "e3dd4b0540c9e492",
+        "g": "bfa4cbec899b3e2a",
+        "name": "",
+        "group": "af0ab0737b37b306",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "House 1",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "HouseDelivery",
+        "topicType": "msg",
+        "x": 380,
+        "y": 80,
+        "wires": [
+            [
+                "4f8192c4abded7e4"
+            ]
+        ]
+    },
+    {
+        "id": "e01b094ef8f7510a",
+        "type": "ui_button",
+        "z": "e3dd4b0540c9e492",
+        "g": "bfa4cbec899b3e2a",
+        "name": "",
+        "group": "af0ab0737b37b306",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "House 2",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "2",
+        "payloadType": "str",
+        "topic": "HouseDelivery",
+        "topicType": "msg",
+        "x": 380,
+        "y": 140,
+        "wires": [
+            [
+                "4f8192c4abded7e4"
+            ]
+        ]
+    },
+    {
+        "id": "aa2b34415a7f03eb",
+        "type": "ui_button",
+        "z": "e3dd4b0540c9e492",
+        "g": "bfa4cbec899b3e2a",
+        "name": "",
+        "group": "af0ab0737b37b306",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "House 3",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "3",
+        "payloadType": "str",
+        "topic": "HouseDelivery",
+        "topicType": "msg",
+        "x": 380,
+        "y": 180,
+        "wires": [
+            [
+                "4f8192c4abded7e4"
+            ]
+        ]
+    },
+    {
+        "id": "e906552b12bca2d9",
+        "type": "ui_button",
+        "z": "e3dd4b0540c9e492",
+        "g": "bfa4cbec899b3e2a",
+        "name": "",
+        "group": "af0ab0737b37b306",
+        "order": 4,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "House 4",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "4",
+        "payloadType": "str",
+        "topic": "HouseDelivery",
+        "topicType": "msg",
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "4f8192c4abded7e4"
+            ]
+        ]
+    },
+    {
+        "id": "6d021b6c0e1cbf62",
+        "type": "ui_button",
+        "z": "e3dd4b0540c9e492",
+        "g": "bfa4cbec899b3e2a",
+        "name": "",
+        "group": "af0ab0737b37b306",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "House 5",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "5",
+        "payloadType": "str",
+        "topic": "HouseDelivery",
+        "topicType": "msg",
+        "x": 380,
+        "y": 280,
+        "wires": [
+            [
+                "4f8192c4abded7e4"
+            ]
+        ]
+    },
+    {
+        "id": "c8ffbe84929891b1",
+        "type": "ui_text",
+        "z": "e3dd4b0540c9e492",
+        "g": "372795a982966cb9",
+        "group": "61285987.c20328",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Total income",
+        "format": "{{msg.payload}}$",
+        "layout": "col-center",
+        "className": "",
+        "x": 1470,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "70b18085c5acf62c",
+        "type": "ui_chart",
+        "z": "e3dd4b0540c9e492",
+        "g": "372795a982966cb9",
+        "name": "",
+        "group": "61285987.c20328",
+        "order": 2,
+        "width": 7,
+        "height": 4,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1470,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0161f38875137941",
+        "type": "function",
+        "z": "e3dd4b0540c9e492",
+        "g": "59fde9d6be65b870",
+        "name": "(1) Sumation of chargeCost:",
+        "func": "var chargeCost = context.flow.get('chargeCost') || 0; \n//mottar context chargecost, hvis den ikke finnes lages den og verdien settes til 0\nvar totalCost = context.flow.get('totalCost') || 0;    \n//mottar context totalCost, hvis den ikke finnes lages den og verdien settes til 0\n\nchargeCost = msg.payload;\ncontext.flow.set('chargeCost', chargeCost); \n// setter context chargecost til verdien som blir mottatt\ntotalCost = totalCost + chargeCost;\ncontext.flow.set('totalCost', totalCost); \n// oppdaterer totalcost hver gang en ny chargecost blir mottatt\n\nreturn { payload: totalCost }; \n//returnerer totalcost\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 180,
+        "wires": [
+            [
+                "e9d6cb422e47f9db"
+            ]
+        ]
+    },
+    {
+        "id": "e9d6cb422e47f9db",
+        "type": "function",
+        "z": "e3dd4b0540c9e492",
+        "g": "2b273f844c057860",
+        "name": "(10) The difference:",
+        "func": "\nvar totalCost = context.flow.get('totalCost'); \n//henter verdien lagret i contexten\nvar totalIncome = context.flow.get('totalIncome') \n//henter verdien lagret i contexten\n\nvar profit = totalIncome - totalCost; \n//regner hvor mye som er tjent - hvor mye virksomheten koster\nmsg.payload = profit;\n\nreturn msg; \n//returnerer profit\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar totalCost = context.flow.set('totalCost',0); //contexten resettes til 0 hver gang det deployes\nvar totalIncome = context.flow.set('totalIncome',0); //contexten resettes til 0 hver gang det deployes",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 220,
+        "wires": [
+            [
+                "b01fb0c905a9c1cd",
+                "1e216d3940728203"
+            ]
+        ]
+    },
+    {
+        "id": "b01fb0c905a9c1cd",
+        "type": "ui_chart",
+        "z": "e3dd4b0540c9e492",
+        "g": "2b273f844c057860",
+        "name": "",
+        "group": "651b45459da72d7b",
+        "order": 2,
+        "width": 7,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1550,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1e216d3940728203",
+        "type": "ui_text",
+        "z": "e3dd4b0540c9e492",
+        "g": "2b273f844c057860",
+        "group": "651b45459da72d7b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Profit:",
+        "format": "{{msg.payload}}$",
+        "layout": "col-center",
+        "className": "",
+        "x": 1550,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "eee8bc73bfd8ecb1",
+        "type": "mqtt in",
+        "z": "e3dd4b0540c9e492",
+        "g": "9cef537c68fb3d5d",
+        "name": "",
+        "topic": "DeliveryStatus",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 390,
+        "y": 880,
+        "wires": [
+            [
+                "3f9dfa0c2d65df4d"
+            ]
+        ]
+    },
+    {
+        "id": "1998b41e4df8384a",
+        "type": "ui_text",
+        "z": "e3dd4b0540c9e492",
+        "g": "4b3e0d8985a69a5e",
+        "group": "baed9618cbdf0a1d",
+        "order": 1,
+        "width": 7,
+        "height": 1,
+        "name": "",
+        "label": "Status:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1360,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "8e9d1c372d7f0efb",
+        "type": "ui_audio",
+        "z": "e3dd4b0540c9e492",
+        "g": "9cef537c68fb3d5d",
+        "name": "",
+        "group": "af0ab0737b37b306",
+        "voice": "Google italiano",
+        "always": "",
+        "x": 920,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "3f9dfa0c2d65df4d",
+        "type": "switch",
+        "z": "e3dd4b0540c9e492",
+        "g": "9cef537c68fb3d5d",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 530,
+        "y": 880,
+        "wires": [
+            [
+                "ddb6825e039b2342"
+            ],
+            [
+                "b96277b8c00d8fa2"
+            ]
+        ]
+    },
+    {
+        "id": "b96277b8c00d8fa2",
+        "type": "function",
+        "z": "e3dd4b0540c9e492",
+        "g": "9cef537c68fb3d5d",
+        "name": "(9) delivered true",
+        "func": "context.flow.set('orderSuccess', false);\n/*ordersuccess blir false og man kan bestille pizza på nytt\npå vanlig måte*/\nmsg.payload = \"Pizze delivery, bon apetito!\"; \n\n//bilen sender melding om at den leverer/har levert\nreturn msg; \n//returnerer meldingen",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 900,
+        "wires": [
+            [
+                "1998b41e4df8384a",
+                "cec0d6a5440589bb",
+                "8e9d1c372d7f0efb"
+            ]
+        ]
+    },
+    {
+        "id": "ddb6825e039b2342",
+        "type": "function",
+        "z": "e3dd4b0540c9e492",
+        "g": "9cef537c68fb3d5d",
+        "name": "(8) delivery finished ",
+        "func": "\nmsg.payload = \"Awaiting order...\"\n//setter payload til strengen Awaiting order...\nreturn msg;\n//returnerer meldingen\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 840,
+        "wires": [
+            [
+                "1998b41e4df8384a",
+                "b0709059b866a98d"
+            ]
+        ]
+    },
+    {
+        "id": "cec0d6a5440589bb",
+        "type": "ui_toast",
+        "z": "e3dd4b0540c9e492",
+        "g": "9cef537c68fb3d5d",
+        "position": "top left",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 930,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "bedd02c2e5b8b760",
+        "type": "ui_template",
+        "z": "e3dd4b0540c9e492",
+        "g": "ce453ab9b7f3c756",
+        "group": "af0ab0737b37b306",
+        "name": "",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "format": "<!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            /* bakgrunnsbilde */\n            background-image: url(\"/images/anotherPB.jpg\");\n\n            /* justerer størrelse */\n            height: 100%;\n\n            /* plasserer bilde */\n            background-position: center;\n            background-repeat: no-repeat;\n            background-size: cover;\n        }\n    </style>\n</head>\n\n\n\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1180,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "deba5c50091fb7e4",
+        "type": "ui_template",
+        "z": "e3dd4b0540c9e492",
+        "g": "ce453ab9b7f3c756",
+        "group": "f38697b6ae16fb5e",
+        "name": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            /* bakgrunnsbilde */\n            background-image: url(\"/images/smartCity.jpg\");\n\n            /* justerer størrelse */\n            height: 100%;\n\n            /* plasserer bilde */\n            background-position: center;\n            background-repeat: no-repeat;\n            background-size: cover;\n        }\n    </style>\n</head>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1180,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4e90c062ab69e56b",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "9cef537c68fb3d5d",
+        "name": "",
+        "info": "Deler meldingen inn i to, \nDropdown menyen resettesbare når meldingen\nfra bilen er 0\n\nPizzaen er framme når det mottas 1.\nDa skal notifikasjon komme.\n\nBilen sender tallet 1 når den har skutt\npizzaen og tallet 0 rett etter.\n\n\nSetter også order success til false\nslik at man må gjennom order success funksjonen\nfør man bestiller pizza. Dette må gjøres\nslik at man ikke bare kan trykke på husnummer\nuten å bestille noe.\nFor da vil det stå Pizze on the way uten\nat den faktisk er det.",
+        "x": 700,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "68b427feb35b54f0",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "ce453ab9b7f3c756",
+        "name": "",
+        "info": "Bilder som blir brukt på dashbordet.\nI css og html",
+        "x": 1180,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "73fbc6ba04bafdb3",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "2b273f844c057860",
+        "name": "",
+        "info": "Summen av hva bedriften tjener\nminus\nsummen av hva bedriften koster.\nUtgjør hvor mye bedriften har i profitt.",
+        "x": 1360,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "adaa622f6a3497c9",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "4b3e0d8985a69a5e",
+        "name": "",
+        "info": "Statusen som vises i \"Car tracking\"\nvil oppdateres etterhvert som tekstnoden\nfår nye inputs",
+        "x": 1360,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "bf9f95fc917388a9",
+        "type": "mqtt in",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "topic": "HouseDelivery",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 480,
+        "wires": [
+            [
+                "cd4cac89b56f8aa3",
+                "eef499752e57a6c4",
+                "3b7ae38bd1a2d5e9",
+                "90f466dbc41665e5",
+                "cfd47718aae564e9"
+            ]
+        ]
+    },
+    {
+        "id": "cd4cac89b56f8aa3",
+        "type": "function",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "(3) Summation of income:",
+        "func": "\nvar totalIncome = context.flow.get('totalIncome') || 0; \n//mottar context totalIncome, hvis den ikke finnes lages den og verdien settes til 0\nvar price = context.flow.get('price') || 0;             \n//mottar context price, hvis den ikke finnes lages den og verdien settes til 0\n\nif (msg.payload > 10) { \n    price = msg.payload;\n    //hvis payloaden den mottar er over 10, er payloaden prisen på det som blir kjøpt i dropdown menyen\n    context.flow.set('price', price); \n    /*da settes prisen til det som ble valgt i en context\n    slik at den kan brukes til å summere totalCost*/\n} else if (msg.payload < 10) {\n    totalIncome = totalIncome + price; \n    /*når paylpoaden er under 10 så har kunden trykket på husnummer\n    og da legges prisen til summen*/\n    context.flow.set('totalIncome', totalIncome); \n    //totalIncome blir lagret og kan brukes igjen når ny pizza blir bestilt\n    \n    return { payload: totalIncome }; \n    //returnerer totalIncome\n}\n\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1070,
+        "y": 380,
+        "wires": [
+            [
+                "c8ffbe84929891b1",
+                "70b18085c5acf62c",
+                "e9d6cb422e47f9db"
+            ]
+        ]
+    },
+    {
+        "id": "cfd47718aae564e9",
+        "type": "function",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "(6) If bought -> Pizze on the way!",
+        "func": "var orderSuccess = context.flow.get('orderSuccess'); \n//henter price fra context\nif(orderSuccess == true){ \n    /*hvis ordersucess er true har order success funksjonen kjørt, det \n    vil si at pizzaen er bestilt korrekt*/\n    msg.payload = \"Pizze on the way!\"; \n    return msg; //returnerer strengen\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 600,
+        "wires": [
+            [
+                "1998b41e4df8384a"
+            ]
+        ]
+    },
+    {
+        "id": "eef499752e57a6c4",
+        "type": "ui_dropdown",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "place": "Menu:",
+        "group": "692243409870fe34",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "1. Pizze of the day - 21$",
+                "value": 16,
+                "type": "num"
+            },
+            {
+                "label": "2. Margherita - 20$",
+                "value": 15,
+                "type": "num"
+            },
+            {
+                "label": "3. Bufalata - 19$",
+                "value": 14,
+                "type": "num"
+            },
+            {
+                "label": "4. Vesuvio - 17$",
+                "value": 12,
+                "type": "num"
+            },
+            {
+                "label": "5. Capricciosa - 22$",
+                "value": 17,
+                "type": "num"
+            },
+            {
+                "label": "6. Calzone  - 23$",
+                "value": 18,
+                "type": "num"
+            },
+            {
+                "label": "7. Parma - 24$",
+                "value": 19,
+                "type": "num"
+            },
+            {
+                "label": "8. Vegana - 25$",
+                "value": 20,
+                "type": "num"
+            }
+        ],
+        "payload": "",
+        "topic": "SelectedOption",
+        "topicType": "msg",
+        "className": "",
+        "x": 840,
+        "y": 480,
+        "wires": [
+            [
+                "cd4cac89b56f8aa3",
+                "7878819815e13ade",
+                "ce2c92b0b783f1de"
+            ]
+        ]
+    },
+    {
+        "id": "b0709059b866a98d",
+        "type": "function",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "(7) Reset dropdown menu",
+        "func": "if (msg.payload == \"Awaiting order...\") { \n    /*når bilen er fremme og har skutt ut pizza skal menyen \n    oppdateres til de gamle verdiene, og man kan kjøpe ny*/\n    msg.options = [\n        { '1. Pizze of the day - 16$':16 },\n        { '2. Margherita - 15$': 15 },\n        { '3. Bufalata - 14$': 14 },\n        { '4. Vesuvio - 12$': 12 },   //lager nye valg i dropdown menyen\n        { '5. Capricciosa - 17$': 17 },\n        { '6. Calzone - 18$': 18 },\n        { '7. Parma - 19$': 19 },\n        { '8. Vegana - 20$': 20 },\n    ];\n    return msg; //returnerer meldingen\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 650,
+        "y": 700,
+        "wires": [
+            [
+                "eef499752e57a6c4"
+            ]
+        ]
+    },
+    {
+        "id": "7878819815e13ade",
+        "type": "ui_text",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "group": "61285987.c20328",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Most recent income:",
+        "format": " +{{msg.payload}} $",
+        "layout": "col-center",
+        "className": "",
+        "x": 1040,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "bc11f36fb47bd992",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "info": "Viser direkte hva som er siste innskudd.\nHva enn payloaden er når nytt kjøp/knappetrykk\ner satt vises i dashbordet.",
+        "x": 1020,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "b2c5726ee59e6a12",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "info": "Setter dropdown menyen til den samme\nsom den var når man først startet\nnode-red hvis pizzaen er levert\nog bilen er klar for ny bestilling.",
+        "x": 700,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "9521cd6d0b9b64f0",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "info": "Når knappetrykk har skjedd og funksjon (5)\nhar kjørt, så er pizza bestilt korrekt.\nDa skal beskjeden sendes videre",
+        "x": 620,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "3b7ae38bd1a2d5e9",
+        "type": "function",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "(5) Order success",
+        "func": "context.flow.get('orderSuccess') || false;\nvar optionSelected = context.flow.get('optionSelected'); \n//henter optionselected fra context.\n\nif(optionSelected == true && msg.payload < 10){\n/*hvis der er valgt en pizza og det er et knappetrykk\nså er pizzaen riktig bestilt*/\nmsg.options = [{'Thanks for your order!': 0}];\n//Setter valgene til å være takk for din bestillig med verdien 0\ncontext.flow.set('price', 0);\n/*setter price context til å være 0 slik at man ikke kan \"kjøpe\"\ndenne menyen*/\ncontext.flow.set('orderSuccess', true);\nreturn msg;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 500,
+        "wires": [
+            [
+                "eef499752e57a6c4"
+            ]
+        ]
+    },
+    {
+        "id": "ce2c92b0b783f1de",
+        "type": "function",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "(4) optionSelected = true",
+        "func": "\nvar optionSelected = context.flow.get('optionSelected') || true;\ncontext.flow.set('optionSelected', true);\n\nmsg.payload = optionSelected;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a5cc0514557e9298",
+        "type": "function",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "(2) optionSelected = false",
+        "func": "\ncontext.flow.set('optionSelected', false);\n/*når knappetrykk er skjedd er det ikke lenger en valgt\npizza i pizzamenyen, og da kan ikke order success funksjonen\nkjøre sin kode*/\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 710,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "90f466dbc41665e5",
+        "type": "delay",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "300",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 380,
+        "wires": [
+            [
+                "a5cc0514557e9298"
+            ]
+        ]
+    },
+    {
+        "id": "9b3f7e1dccc4ce6c",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "info": "Liten delay slik at order success\nfunksjonen rekker å kjøre gjennom hvis det\nbåde er valgt meny og knappetrykk har skjedd\ndet vil si bestilling.\nLike etterpå er det bestilt og da er\noptionSelected false igjen.",
+        "x": 520,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "7fd021b0a8f7e783",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "info": "Valgene i drop down menyen endres ettehvert\nsom pizzaer blir bestilt.\nDet som er lagt inn manuelt i noden, er\ndet som vil være der ved oppstart av \nnode-red",
+        "x": 840,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "b378712d1d3bdc2e",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "info": "Summerer alt some er tjent inn ",
+        "x": 1060,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "58b5c232d8393f93",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "59fde9d6be65b870",
+        "name": "",
+        "info": "Summerer alt som blir published i chargeCost\n",
+        "x": 1000,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "f56adddbed9d5987",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "info": "Denne funksjonen er her for å sikre at man\nikke kan trykke på et hus for bestilling\nuten å ha lagt inn en meny fra dropdown\nnoden.\n\nOrder success blir false igjen når pizzaen\ner levert i funksjon (9).",
+        "x": 660,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "3048638a621f0b3d",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "bfa4cbec899b3e2a",
+        "name": "",
+        "info": "Knappetrykk i dashbordet publisher\nulike tall til denne topicen",
+        "x": 560,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "3b5ac6549f4a16b7",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "info": "Knappetrykk i dashbordet\nblir brukt som \"bestillings\"\nknapp men bare når det er valgt noe på\nmenyen i dropdown noden. For å sjekke om\ndet er valgt noe før knappen blir brukt\nsom bestilling kjøres order success funksjonen.\n",
+        "x": 400,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "3e1a9763c4d6fd8b",
+        "type": "comment",
+        "z": "e3dd4b0540c9e492",
+        "g": "79c11ee659424ab8",
+        "name": "",
+        "info": "Funksjonen blir brukt til å\nlagre en context etter at kunde\nhar valgt en meny. Contexten brukes videre\ni funksjon (5).",
+        "x": 1080,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "4d37d559a779b1b0",
+        "type": "ui_template",
+        "z": "e3dd4b0540c9e492",
+        "g": "ce453ab9b7f3c756",
+        "group": "ade7a177e46e99f7",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            /* bakgrunnsbilde */\n            background-image: url(\"/images/IotBackground.png\");\n\n            /* justerer størrelse */\n            height: 100%;\n\n            /* plasserer bilde */\n            background-position: center;\n            background-repeat: no-repeat;\n            background-size: cover;\n        }\n    </style>\n</head>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1180,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d591a8bdda3541f",
+        "type": "ui_template",
+        "z": "e3dd4b0540c9e492",
+        "g": "ce453ab9b7f3c756",
+        "group": "3e1c1d14b40b4fbb",
+        "name": "",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<!DOCTYPE html>\n<html>\n\n<head>\n    <style>\n        body {\n            /* bakgrunnsbilde */\n            background-image: url(\"/images/stocks.jpg\");\n\n            /* justerer størrelse */\n            height: 100%;\n\n            /* plasserer bilde */\n            background-position: center;\n            background-repeat: no-repeat;\n            background-size: cover;\n        }\n    </style>\n</head>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1180,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c6a2aeba9fa13997",
+        "type": "mqtt in",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "topic": "humSens",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 120,
+        "wires": [
+            [
+                "6aad7ee2140dd17b"
+            ]
+        ]
+    },
+    {
+        "id": "5045ed1706464213",
+        "type": "mqtt in",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "topic": "tempSens",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 180,
+        "wires": [
+            [
+                "b7ad9fd23563a849"
+            ]
+        ]
+    },
+    {
+        "id": "c58a5df46c68cb9d",
+        "type": "mqtt in",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "topic": "presSens",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 240,
+        "wires": [
+            [
+                "fe25cb2bc4ee6c59"
+            ]
+        ]
+    },
+    {
+        "id": "77bd9998f0205db0",
+        "type": "mqtt in",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "topic": "gasSens",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 200,
+        "y": 300,
+        "wires": [
+            [
+                "44d04220e35beb0c"
+            ]
+        ]
+    },
+    {
+        "id": "ed9d9c0efdcc967a",
+        "type": "ui_gauge",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "group": "b05b394625541e3d",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "IAQ",
+        "format": "{{value}}",
+        "min": "0",
+        "max": "500",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "200",
+        "seg2": "300",
+        "diff": false,
+        "className": "",
+        "x": 570,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b7ad9fd23563a849",
+        "type": "ui_chart",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "group": "f38697b6ae16fb5e",
+        "order": 1,
+        "width": 7,
+        "height": 5,
+        "label": "",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 430,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe25cb2bc4ee6c59",
+        "type": "ui_gauge",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "group": "2d751610c891bbec",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "hPa",
+        "format": "{{value}}",
+        "min": "970",
+        "max": "1030",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 410,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "6aad7ee2140dd17b",
+        "type": "ui_gauge",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "group": "34756a54ce886816",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ca3838",
+            "#0fe600",
+            "#3ac1cb"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 470,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "44d04220e35beb0c",
+        "type": "function",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "function 11",
+        "func": "const R0 = 20;\nconst IAQ = 100 * (1 - (R0 / msg.payload));\nmsg.payload = parseFloat(IAQ.toFixed(1));\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 300,
+        "wires": [
+            [
+                "ed9d9c0efdcc967a"
+            ]
+        ]
+    },
+    {
+        "id": "66ebe2c859d43146",
+        "type": "comment",
+        "z": "8e4b52badadfe50c",
+        "g": "3d2092b8ec9198fb",
+        "name": "",
+        "info": "Formel som gjør om motstand \ni kOhm til IAQ\n",
+        "x": 380,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "1a77dd43b252d304",
+        "type": "mqtt in",
+        "z": "fd8429217b70c8a4",
+        "g": "91aa0da3b533ef89",
+        "name": "",
+        "topic": "avgSpeed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "95b944d51e647859"
+            ]
+        ]
+    },
+    {
+        "id": "95b944d51e647859",
+        "type": "ui_gauge",
+        "z": "fd8429217b70c8a4",
+        "g": "91aa0da3b533ef89",
+        "name": "",
+        "group": "ade7a177e46e99f7",
+        "order": 1,
+        "width": 9,
+        "height": 11,
+        "gtype": "gage",
+        "title": "",
+        "label": "cm/s",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "20",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 270,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c66491fd9e042dfb",
+        "type": "mqtt in",
+        "z": "fd8429217b70c8a4",
+        "g": "626391e90ffc7a4b",
+        "name": "",
+        "topic": "chargeIn",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 260,
+        "wires": [
+            [
+                "2e7679989a01b13e"
+            ]
+        ]
+    },
+    {
+        "id": "5d65ae7e4d716b9e",
+        "type": "ui_gauge",
+        "z": "fd8429217b70c8a4",
+        "g": "6269cc8ede495d79",
+        "name": "",
+        "group": "6268f570b9d0c238",
+        "order": 1,
+        "width": 9,
+        "height": 11,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 290,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "2e7679989a01b13e",
+        "type": "mqtt out",
+        "z": "fd8429217b70c8a4",
+        "g": "626391e90ffc7a4b",
+        "name": "",
+        "topic": "chargeOut",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 310,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "0dca8fa66ed3f728",
+        "type": "mqtt out",
+        "z": "fd8429217b70c8a4",
+        "g": "6269cc8ede495d79",
+        "name": "",
+        "topic": "batteryOut",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 290,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "057909599f03bdc4",
+        "type": "mqtt out",
+        "z": "fd8429217b70c8a4",
+        "g": "6269cc8ede495d79",
+        "name": "",
+        "topic": "batteryNewOut",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 360,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7e6acb2db9379941",
+        "type": "mqtt in",
+        "z": "fd8429217b70c8a4",
+        "g": "626391e90ffc7a4b",
+        "name": "",
+        "topic": "batteryFinishedIn",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "96194e4155d1c30e"
+            ]
+        ]
+    },
+    {
+        "id": "96194e4155d1c30e",
+        "type": "mqtt out",
+        "z": "fd8429217b70c8a4",
+        "g": "626391e90ffc7a4b",
+        "name": "",
+        "topic": "batteryFinishedOut",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 370,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "72c35bb422252758",
+        "type": "mqtt in",
+        "z": "fd8429217b70c8a4",
+        "g": "6269cc8ede495d79",
+        "name": "",
+        "topic": "batteryIn",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 460,
+        "wires": [
+            [
+                "0dca8fa66ed3f728",
+                "5d65ae7e4d716b9e"
+            ]
+        ]
+    },
+    {
+        "id": "21bd22cc92b8679b",
+        "type": "mqtt in",
+        "z": "fd8429217b70c8a4",
+        "g": "6269cc8ede495d79",
+        "name": "",
+        "topic": "batteryNewIn4",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 360,
+        "wires": [
+            [
+                "057909599f03bdc4"
+            ]
+        ]
+    }
+]
