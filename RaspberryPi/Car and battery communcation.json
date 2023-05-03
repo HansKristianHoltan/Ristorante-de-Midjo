@@ -1,0 +1,384 @@
+[
+    {
+        "id": "fd8429217b70c8a4",
+        "type": "tab",
+        "label": "Car and battery communication",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "91aa0da3b533ef89",
+        "type": "group",
+        "z": "fd8429217b70c8a4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1a77dd43b252d304",
+            "95b944d51e647859"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 312,
+        "h": 82
+    },
+    {
+        "id": "6269cc8ede495d79",
+        "type": "group",
+        "z": "fd8429217b70c8a4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5d65ae7e4d716b9e",
+            "0dca8fa66ed3f728",
+            "057909599f03bdc4",
+            "72c35bb422252758",
+            "21bd22cc92b8679b"
+        ],
+        "x": 34,
+        "y": 319,
+        "w": 432,
+        "h": 242
+    },
+    {
+        "id": "626391e90ffc7a4b",
+        "type": "group",
+        "z": "fd8429217b70c8a4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c66491fd9e042dfb",
+            "2e7679989a01b13e",
+            "7e6acb2db9379941",
+            "96194e4155d1c30e"
+        ],
+        "x": 34,
+        "y": 119,
+        "w": 452,
+        "h": 182
+    },
+    {
+        "id": "1a77dd43b252d304",
+        "type": "mqtt in",
+        "z": "fd8429217b70c8a4",
+        "g": "91aa0da3b533ef89",
+        "name": "",
+        "topic": "avgSpeed",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "95b944d51e647859"
+            ]
+        ]
+    },
+    {
+        "id": "95b944d51e647859",
+        "type": "ui_gauge",
+        "z": "fd8429217b70c8a4",
+        "g": "91aa0da3b533ef89",
+        "name": "",
+        "group": "ade7a177e46e99f7",
+        "order": 1,
+        "width": 9,
+        "height": 11,
+        "gtype": "gage",
+        "title": "",
+        "label": "cm/s",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "20",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 270,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c66491fd9e042dfb",
+        "type": "mqtt in",
+        "z": "fd8429217b70c8a4",
+        "g": "626391e90ffc7a4b",
+        "name": "",
+        "topic": "chargeIn",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 260,
+        "wires": [
+            [
+                "2e7679989a01b13e"
+            ]
+        ]
+    },
+    {
+        "id": "5d65ae7e4d716b9e",
+        "type": "ui_gauge",
+        "z": "fd8429217b70c8a4",
+        "g": "6269cc8ede495d79",
+        "name": "",
+        "group": "6268f570b9d0c238",
+        "order": 1,
+        "width": 9,
+        "height": 11,
+        "gtype": "gage",
+        "title": "",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 290,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "2e7679989a01b13e",
+        "type": "mqtt out",
+        "z": "fd8429217b70c8a4",
+        "g": "626391e90ffc7a4b",
+        "name": "",
+        "topic": "chargeOut",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 310,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "0dca8fa66ed3f728",
+        "type": "mqtt out",
+        "z": "fd8429217b70c8a4",
+        "g": "6269cc8ede495d79",
+        "name": "",
+        "topic": "batteryOut",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 290,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "057909599f03bdc4",
+        "type": "mqtt out",
+        "z": "fd8429217b70c8a4",
+        "g": "6269cc8ede495d79",
+        "name": "",
+        "topic": "batteryNewOut",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 360,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "7e6acb2db9379941",
+        "type": "mqtt in",
+        "z": "fd8429217b70c8a4",
+        "g": "626391e90ffc7a4b",
+        "name": "",
+        "topic": "batteryFinishedIn",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "96194e4155d1c30e"
+            ]
+        ]
+    },
+    {
+        "id": "96194e4155d1c30e",
+        "type": "mqtt out",
+        "z": "fd8429217b70c8a4",
+        "g": "626391e90ffc7a4b",
+        "name": "",
+        "topic": "batteryFinishedOut",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "10e78a89.5b4fd5",
+        "x": 370,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "72c35bb422252758",
+        "type": "mqtt in",
+        "z": "fd8429217b70c8a4",
+        "g": "6269cc8ede495d79",
+        "name": "",
+        "topic": "batteryIn",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 120,
+        "y": 460,
+        "wires": [
+            [
+                "0dca8fa66ed3f728",
+                "5d65ae7e4d716b9e"
+            ]
+        ]
+    },
+    {
+        "id": "21bd22cc92b8679b",
+        "type": "mqtt in",
+        "z": "fd8429217b70c8a4",
+        "g": "6269cc8ede495d79",
+        "name": "",
+        "topic": "batteryNewIn4",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "10e78a89.5b4fd5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 360,
+        "wires": [
+            [
+                "057909599f03bdc4"
+            ]
+        ]
+    },
+    {
+        "id": "10e78a89.5b4fd5",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.0.129",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ade7a177e46e99f7",
+        "type": "ui_group",
+        "name": "Speed",
+        "tab": "fe7c620d395809e9",
+        "order": 2,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6268f570b9d0c238",
+        "type": "ui_group",
+        "name": "Battery",
+        "tab": "fe7c620d395809e9",
+        "order": 3,
+        "disp": true,
+        "width": 9,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fe7c620d395809e9",
+        "type": "ui_tab",
+        "name": "Car Tracking",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    }
+]
