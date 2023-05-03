@@ -49,7 +49,9 @@
             "66ebe2c859d43146"
         ],
         "x": 114,
-        "y": 79
+        "y": 79,
+        "w": 532,
+        "h": 302
     },
     {
         "id": "bfa4cbec899b3e2a",
@@ -96,7 +98,9 @@
             "95b944d51e647859"
         ],
         "x": 34,
-        "y": 19
+        "y": 19,
+        "w": 312,
+        "h": 82
     },
     {
         "id": "6269cc8ede495d79",
@@ -119,7 +123,9 @@
             "21bd22cc92b8679b"
         ],
         "x": 34,
-        "y": 319
+        "y": 319,
+        "w": 432,
+        "h": 242
     },
     {
         "id": "626391e90ffc7a4b",
@@ -141,7 +147,9 @@
             "96194e4155d1c30e"
         ],
         "x": 34,
-        "y": 119
+        "y": 119,
+        "w": 452,
+        "h": 182
     },
     {
         "id": "ce453ab9b7f3c756",
@@ -212,7 +220,7 @@
             "1e216d3940728203",
             "73fbc6ba04bafdb3"
         ],
-        "x": 1254,
+        "x": 1274,
         "y": 159,
         "w": 372,
         "h": 142
@@ -966,7 +974,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nvar totalCost = context.flow.set('totalCost',0); //contexten resettes til 0 hver gang det deployes\nvar totalIncome = context.flow.set('totalIncome',0); //contexten resettes til 0 hver gang det deployes",
         "finalize": "",
         "libs": [],
-        "x": 1370,
+        "x": 1390,
         "y": 220,
         "wires": [
             [
@@ -1014,7 +1022,7 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1550,
+        "x": 1570,
         "y": 260,
         "wires": [
             []
@@ -1034,7 +1042,7 @@
         "format": "{{msg.payload}}$",
         "layout": "col-center",
         "className": "",
-        "x": 1550,
+        "x": 1570,
         "y": 200,
         "wires": []
     },
@@ -1261,7 +1269,7 @@
         "g": "2b273f844c057860",
         "name": "",
         "info": "Summen av hva bedriften tjener\nminus\nsummen av hva bedriften koster.\nUtgjør hvor mye bedriften har i profitt.",
-        "x": 1360,
+        "x": 1380,
         "y": 260,
         "wires": []
     },
