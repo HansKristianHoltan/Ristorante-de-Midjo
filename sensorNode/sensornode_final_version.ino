@@ -10,8 +10,8 @@ Adafruit_BME680 bme; // Use I2C protocol
 #include "sendData.h"
 #include "setupWiFi.h"
 #include <stdint.h> 
-#include "batteryCharge.h"
 #include "lightBar.h"
+#include "batteryCharge.h"
 #include "solarPower.h"
 
 // Variable to store if sending data was successful
@@ -147,8 +147,8 @@ void loop() {
   }
   client.loop(); 
 
-  chargeZumo();
-  sendSensorData();
-  chargePowerBank();
+  chargeZumo(); // kjører funksjonen som styrer lading av zumo bil
+  sendSensorData(); //kjører funksjonen som sender data til nodeRed
+  chargePowerBank(); // kjører funksjonen som lader powerbank batteriet
    
 }
