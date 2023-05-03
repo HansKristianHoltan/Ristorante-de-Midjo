@@ -221,6 +221,12 @@ void loop() {
   Serial.println(readBatteryMillivolts());
   Serial.print("Swbatteri: ");
   Serial.println(batteryPercentage);
+  Serial.print("sensor H: ");
+  Serial.println(houseSensor[4]);
+  Serial.print("sensor V: ");
+  Serial.println(houseSensor[0]);
+  Serial.print("allowcount: ");
+  Serial.println(allowCount);
   Serial.println(" ");
   */
 }

@@ -66,14 +66,14 @@ void isOnHouse(){
   lineSensors.read(houseSensor);
 
   // hvis en av sensorene registrerer en hvit lapp (hus)
-  if ((houseSensor[0] < isOnHouseSensorTreshold || houseSensor[4] < isOnHouseSensorTreshold) && allowCount == true){
-      if (houseSensor[0] < isOnHouseSensorTreshold){
+  if ((houseSensor[0] <= isOnHouseSensorTreshold || houseSensor[4] <= isOnHouseSensorTreshold) && allowCount == true){
+      if (houseSensor[0] <= isOnHouseSensorTreshold){
         direction = left;
       }
-      else if (houseSensor[4] < isOnHouseSensorTreshold){
+      else if (houseSensor[4] <= isOnHouseSensorTreshold){
         direction = right;
       }
-    // hvis lappen registreres konintuerlig i 300ms
+    // hvis lappen registreres konintuerlig i 200
     if (millis() - houseMillis > 200){
       // hus-teller går opp én fram til den treffer 8, da begynner den på 1 igjen
       houseNum += 1;
@@ -88,8 +88,8 @@ void isOnHouse(){
     }
 }
   // Hvis det ikke er registrert hvit lapp lenger, og vent 400ms før lapp kan registrers igjen
-  else if (houseSensor[0] > isOnHouseSensorTreshold || houseSensor[4] > isOnHouseSensorTreshold && allowCount == false){
-    if (millis() - noHouseMillis > 400){
+  else if (houseSensor[0] > isOnHouseSensorTreshold && houseSensor[4] > isOnHouseSensorTreshold && allowCount == false && drivingState != notDriving){
+    if (millis() - noHouseMillis > 600){
       allowCount = true;
       noHouseMillis = millis();
     }

@@ -25,7 +25,7 @@ void lineFollower(){
   int position = lineSensors.readLine(lineSensorValues);
 
   // endrer posisjon slik at 0 er på linja
-  int error = position -2000;
+  int error = position - 2000;
 
   // regner ut forskjellen i fart mellom venstre og høyre motor
   // dette gjøres ved hjelp av en PID regulator
@@ -51,7 +51,7 @@ void lineFollowerSlow(){
  
   int position = lineSensors.readLine(lineSensorValues);
 
-  int error = position -2000;
+  int error = position - 2000;
 
   speedDifference = error / 2 +  3 * (error - lastError);
 

@@ -18,7 +18,7 @@ void chargeBattery(){
     onDestination = false;
     onChargingStation = false;
     isFinishedCharging = 0;
-    destination = NULL;
+    destination = 6;
   }
 }
 
@@ -46,11 +46,21 @@ void getSpeed(){
 // batteri simulasjon
 float SWbattery(){
 
-  // hvert sekund, hent fart, og regn ut batterytap bassert på farten
+  // Hvert sekund regner ut tap i batteriprosent
   if (millis() - batteryTime > 1000){
 
+    // Henter farten
     getSpeed();
-    batteryPercentage -= 0.023 * abs(speedAvg);
+    
+    // Dersom Zumo har fart, bruk farten til å regne ut ny batteriprosent
+    if (speedAvg != 0){
+    batteryPercentage -= 0.1 * abs(speedAvg);
+    }
+
+    // Dersom Zumo ikke har fart, og den ikke lader, reduser batterprosent med en liten kosntant.
+    else if (onChargingStation == false){
+      batteryPercentage -= 0.01;
+    }
     batteryTime = millis();
 }
 }

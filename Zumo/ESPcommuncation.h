@@ -43,10 +43,6 @@ void recieveFromEsp(){
     // lagrer 1 eller 0 til isFinishedCharging, 1 hvis ferdig å lade, 0 hvis ikke
     isFinishedCharging = receivedData[1];
 
-    // debugging
-    //Serial.print("isFinishedCharging: ");
-    //Serial.println(isFinishedCharging);
-
     // hvis ferdig å lade, registrer ny batteryprosent
     if (isFinishedCharging == 1){
       batteryPercentage = receivedData[2];

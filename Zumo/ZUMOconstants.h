@@ -19,9 +19,9 @@ Servo pizzaServo;
 //       forkskjellige sensor-grenseverdier         //
 // må endres for hver gang Zumo er på nytt underlag //
 //////////////////////////////////////////////////////
-int16_t onLineTreshold = 600;
-int16_t offLineTreshold = 260;
-int16_t isOnHouseSensorTreshold = 200;
+int16_t onLineTreshold = 800;
+int16_t offLineTreshold = 400;
+int16_t isOnHouseSensorTreshold = 220;
  
 // konstant for å iterer gjennom en switch case
 int8_t i = 0;
@@ -47,7 +47,7 @@ enum Direction{
 enum Direction direction;
 
 // batteri startprosent, og minimumsprosent
-float batteryPercentage = 100;
+float batteryPercentage = 12;
 int8_t batteryMin = 10;
 
 // array som sender, og array som mottar data til/fra esp
