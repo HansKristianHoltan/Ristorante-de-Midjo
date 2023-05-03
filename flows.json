@@ -221,7 +221,7 @@
             "73fbc6ba04bafdb3"
         ],
         "x": 1274,
-        "y": 159,
+        "y": 179,
         "w": 372,
         "h": 142
     },
@@ -975,7 +975,7 @@
         "finalize": "",
         "libs": [],
         "x": 1390,
-        "y": 220,
+        "y": 240,
         "wires": [
             [
                 "b01fb0c905a9c1cd",
@@ -1023,7 +1023,7 @@
         "useDifferentColor": false,
         "className": "",
         "x": 1570,
-        "y": 260,
+        "y": 280,
         "wires": [
             []
         ]
@@ -1043,7 +1043,7 @@
         "layout": "col-center",
         "className": "",
         "x": 1570,
-        "y": 200,
+        "y": 220,
         "wires": []
     },
     {
@@ -1270,7 +1270,7 @@
         "name": "",
         "info": "Summen av hva bedriften tjener\nminus\nsummen av hva bedriften koster.\nUtgjør hvor mye bedriften har i profitt.",
         "x": 1380,
-        "y": 260,
+        "y": 280,
         "wires": []
     },
     {
