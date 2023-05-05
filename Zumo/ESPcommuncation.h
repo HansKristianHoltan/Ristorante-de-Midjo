@@ -8,10 +8,6 @@ void sendToEsp(){
     sendingData[0] = 0;
   }
 
-  // debugging
-  //Serial.print("onChargingStation: ");
-  //Serial.println(sendingData[0]);
-
   // hvis pizza er levert, send 1, hvis ikke send 0
   if (pizzaDelivered == true){
     sendingData[1] = 1;

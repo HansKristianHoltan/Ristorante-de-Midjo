@@ -173,7 +173,6 @@ void loop() {
 
         // skru av motorene
         motors.setSpeeds(0, 0);
-        Serial.println("er på pizzastedet");
 
         drivingState = notDriving; 
         pizzaDelivered = false; // beskjed til RPI om at ny pizza kan leveres
@@ -206,27 +205,4 @@ void loop() {
     sendTime = millis();
   }
 
-
-  // Data for debugging
-  /*
-  Serial.print("husnummer: ");
-  Serial.println(houseNum);
-  Serial.print("destinasjon: ");
-  Serial.println(destination);
-  Serial.print("kjøreState: ");
-  Serial.println(drivingState);
-  Serial.print("pizzaDelivered: ");
-  Serial.println(pizzaDelivered);
-  Serial.print("faktisk batterinivå: ");
-  Serial.println(readBatteryMillivolts());
-  Serial.print("Swbatteri: ");
-  Serial.println(batteryPercentage);
-  Serial.print("sensor H: ");
-  Serial.println(houseSensor[4]);
-  Serial.print("sensor V: ");
-  Serial.println(houseSensor[0]);
-  Serial.print("allowcount: ");
-  Serial.println(allowCount);
-  Serial.println(" ");
-  */
 }
