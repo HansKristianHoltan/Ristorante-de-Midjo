@@ -1,1 +1,3 @@
-
+ESPen montert på Zumoen fungerer som en kommunikasjonsenhet.
+Zumoen kommuniserer med ESPen via Seriell kommunikasjon,
+og ESPen kommuniserer med andre IoT-enheter ved hjelp av MQTT
