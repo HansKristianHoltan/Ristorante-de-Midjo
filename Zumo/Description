@@ -1,1 +1,6 @@
-
+Zumobilen fungerer som en pizza-leveringsenhet 
+Den skal følge en sort linje av elektrikkerteip
+og levere pizzaer der hvor det er behov.
+Lokasjonene er representert av hvite lapper langs banen. 
+Bilen skal også håndtere krappe svinger, veikryss, og blindveier.
+Den skal også kommunisere med andre IoT-enheter
